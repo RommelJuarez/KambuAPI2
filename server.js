@@ -22,7 +22,7 @@ app.use(cors({methods:['GET','POST','PUT','DELETE','UPDATE','PATCH']}));
 app.use(cors({origin:'*'}));
 app.use(express.json());
 
-// 📌 authentication middleware
+
 app.use(session({
     secret: 'secret',
     resave: false,

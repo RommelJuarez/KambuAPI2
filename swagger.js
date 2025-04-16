@@ -5,7 +5,7 @@ const doc = {
     title: 'KambuAPI',
     description: 'This API allows the administrators of our e-commerce platform to perform CRUD operations to manipulate their database.'
   },
-  host: 'kambuapi.onrender.com',
+  host: 'kambuapi2.onrender.com',
   schemes:['https','http'],
   tags:[{name:'Customers'},{name:'Products'},{name:'Categories'},{name:'Reviews'}]
 };

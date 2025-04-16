@@ -5,7 +5,7 @@
     "description": "This API allows the administrators of our e-commerce platform to perform CRUD operations to manipulate their database.",
     "version": "1.0.0"
   },
-  "host": "kambuapi.onrender.com",
+  "host": "kambuapi2.onrender.com",
   "basePath": "/",
   "tags": [
     {

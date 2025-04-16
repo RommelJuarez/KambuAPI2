@@ -1,8 +1,8 @@
 
-const { getAllCustomers, getCustomerById } = require('../controllers/customersControllers');
-const { Customer } = require('../models/customerSchema');
+const { getAllCustomers, getCustomerById } = require('../../controllers/customersControllers');
+const { Customer } = require('../../models/customerSchema');
 
-jest.mock('../models/customerSchema');
+jest.mock('../../models/customerSchema');
 
 describe('Customers Controller', () => {
   let req, res;

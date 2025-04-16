@@ -1,7 +1,7 @@
-const { getAllReviews, getReviewById } = require('../controllers/reviewsControllers');
-const { Review } = require('../models/reviewsSchema');
+const { getAllReviews, getReviewById } = require('../../controllers/reviewsControllers');
+const { Review } = require('../../models/reviewsSchema');
 
-jest.mock('../models/reviewsSchema');
+jest.mock('../../models/reviewsSchema');
 
 describe('Reviews Controller', () => {
   let req, res;

@@ -1,6 +1,6 @@
 const categoryController = require('../../controllers/categoryControllers');
 const Category = require('../../models/categorySchema');
-const mongoose = require('mongoose');
+
 
 jest.mock('../../models/categorySchema');
 
